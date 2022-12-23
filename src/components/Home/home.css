@@ -1,0 +1,54 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.meal-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cart-side {
+  border: 1px solid gray;
+  margin: 10px;
+  border-radius: 5px;
+  position: sticky;
+  top: 0px;
+  right: 0;
+  height: 100vh;
+  text-align: left;
+}
+
+.cart-side h3 {
+  text-align: center;
+}
+
+.cart-meal-name h4 {
+  background-color: rgb(233, 227, 227);
+  padding: 10px 0;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+.cart-side div p h4 {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 10px;
+}
+.cart-delete-btn {
+  border: 2px solid red;
+  outline: none;
+  background: transparent;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-delete-btn:hover {
+    background: red;
+    color: white;
+}
